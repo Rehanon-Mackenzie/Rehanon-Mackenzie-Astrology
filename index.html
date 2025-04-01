@@ -112,11 +112,11 @@
       <p class="lead text-center text white mb-5">Please see the benefits my clients have found from receiving a
         reading.</p>
       <div class="row g-3">
-        <div class="col-md">
+        <div class="col-md-6 col-lg-3">
           <div class="card bg-light">
             <div class="card-body text-center">
               <img src="./assets/images/taurus-testimonial.webp" class="rounded-circle bg-outlined" alt="Taurus symbol">
-              <h3 class="card-title mb-3">Alba, Taurus, 38</h3>
+              <h3 class="card-title mb-3">Alba, Taurus</h3>
               <p class="card-text">
                 "I was in my late 30s and working out how I wanted the next stage of my life to look and Rehanon was
                 just able to hone in on the perfect timing for my career transtion. She even predicted I would be moving
@@ -125,24 +125,25 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md-6 col-lg-3">
           <div class="card bg-light">
             <div class="card-body text-center">
               <img src="./assets/images/libra-testimonial.webp" class="rounded-circle bg-outlined" alt="Libra symbol">
-              <h3 class="card-title mb-3">Matt, Libra, 46</h3>
+              <h3 class="card-title mb-3">Matt, Libra</h3>
               <p class="card-text">
                 "A friend of mine had a reading from Rehanon and it piqued my interest so I booked for a birth chart
                 reading. She was really able to tap into my strengths and challenges which enabled me to see how to best
-                focus my energy."
+                focus my energy. It finally gave me the push I needed to embrace the things I was passionate about and
+                see how worthwhile that was."
               </p>
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md-6 col-lg-3">
           <div class="card bg-light">
             <div class="card-body text-center">
               <img src="./assets/images/sagittarius-testimonial.webp" class="rounded-circle" alt="Sagittarius symbol">
-              <h3 class="card-title mb-3">G, Sagittarius, 33</h3>
+              <h3 class="card-title mb-3">G, Sagittarius</h3>
               <p class="card-text">
                 "On meeting with Rehanon I could just feel she had that wonderful combination of intuition and
                 practicality. She read for me when I was just coming out of a period of poor health and she was able to
@@ -152,15 +153,15 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md-6 col-lg-3">
           <div class="card bg-light">
             <div class="card-body text-center">
               <img src="./assets/images/pisces-testimonial.webp" class="rounded-circle bg-outlined" alt="Alba Taurus">
-              <h3 class="card-title mb-3">Nick, Pisces, 41</h3>
+              <h3 class="card-title mb-3">Nick, Pisces</h3>
               <p class="card-text">
-                "My wife, Laura has had several readings with Rehanon but it's not something I would normally do.
-                However, I
-                was really ready to move on job wise and I thought well it's worth a go. Rehanon explained everything in
+                "My wife, Laura had a reading with Rehanon but it's not something I would normally do.
+                However, I was really ready to move on job wise and I thought well it's worth a go. Rehanon explained
+                everything in
                 layman's terms and it actually made so much sense. Felt very much like project planning albeit with the
                 stars."
               </p>
@@ -174,10 +175,32 @@
   </section>
 
   <!-- contact section -->
-  <section id="contact" class="container-fluid">
-    get in touch
+  <section id="contact">
+    <div class="container">
+      <form class="row g-3">
+        <h2 class="text-center p-2">Get In Touch</h2>
+        <p>If you are interested in a reading then please contact me below and I will be in touch with you to arrange
+          this. I very much look forward to meeting with you.</p>
+        <div class="col">
+          <label for="FirstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="inputFirstName">
+        </div>
+        <div class="col">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail">
+        </div>
+    </div>
+    <div class="col-12 p-3">
+      <label for="FormControlTextarea" class="form-label">Message</label>
+      <textarea class="form-control" id="Message" rows="3"></textarea>
+    </div>
+    <div class="col-12">
+      <button type="submit">Send</button>
+    </div>
+    </form>
+    </div>
+
   </section>
-</body>
 
 </html>
 
