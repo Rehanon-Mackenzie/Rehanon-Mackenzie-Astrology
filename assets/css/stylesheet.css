@@ -39,9 +39,12 @@ background-color: #d81159ff;
     width: 100%;
     height: 100%;
 }
-.card-body .rounded-circle  {
-width: 100px;
-height: 100px;
+
+#testimonials
+img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
 }
 
 #about-rehanon {
