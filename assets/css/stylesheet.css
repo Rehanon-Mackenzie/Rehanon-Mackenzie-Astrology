@@ -5,9 +5,18 @@
 --russian-violet: #480355ff;
 --raspberry: #d81159ff; */
 
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 /* General Styles */
 body {
     background-color: #7699d4ff;
+    font-family: "hind-madurai" ;
+}
+
+h1, h2 {
+    font-family: "lora";
+    font-style: italic;
 }
 
 #offering {
