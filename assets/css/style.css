@@ -58,7 +58,8 @@ background-color: #d81159ff;
 
 #testimonials
 img {
-    width: 200px;
+   max-width:100%;
+   width: 100%;
     height: auto;
     object-fit: cover;
 }
