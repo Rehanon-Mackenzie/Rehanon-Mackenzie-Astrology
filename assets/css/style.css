@@ -55,3 +55,19 @@ img {
     height: auto;
     object-fit: cover;
 }
+
+.card-text {
+    min-height: 100px;
+}
+
+@media (min-width: 768px) {
+    .card-text{
+        min-height: 220px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card-text {
+        min-height: 310px;
+    }
+}
