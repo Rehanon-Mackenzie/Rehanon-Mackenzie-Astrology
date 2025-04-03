@@ -13,7 +13,7 @@
 #hero {
     background-color: #63b4d1ff;
     background-image: url("../images/hero-logo-5.svg");
-    background-size: cover;
+    background-size: auto;
     background-position: 50% 70%;
     min-height: 400px;
     padding: 5% 7%;
@@ -26,6 +26,12 @@ body {
 h1, h2 {
     font-family: "lora";
     font-style: italic;
+}
+
+#about img {
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
 }
 
 #offering {
