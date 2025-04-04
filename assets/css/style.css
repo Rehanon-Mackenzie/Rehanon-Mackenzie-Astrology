@@ -14,7 +14,6 @@
     background-image: url(../images/rehanon-astro-hero-compress.webp);
     background-size: auto;
     background-position: 50% 70%;
-    min-height: 400px;
     padding: 5% 7%;
 }
 body {
@@ -66,7 +65,14 @@ img {
 .card-text {
     min-height: 100px;
 }
+@media screen and (max-width:412px)
+{
+     #hero {
+    background-image:url(../images/rehanon-astro-hero-mobile.webp);
+    max-width: 100%;
+}   
 
+}
 @media (min-width: 768px) {
     .card-text{
         min-height: 220px;
