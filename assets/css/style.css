@@ -65,14 +65,7 @@ img {
 .card-text {
     min-height: 100px;
 }
-@media screen and (max-width:412px)
-{
-     #hero {
-    background-image:url(../images/smoosh-hero-mobile.webp);
-    max-width: 100%;
-}   
 
-}
 @media (min-width: 768px) {
     .card-text{
         min-height: 220px;
