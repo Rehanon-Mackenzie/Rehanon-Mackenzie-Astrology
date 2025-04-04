@@ -11,7 +11,7 @@
 
 #hero {
     background-color: #63b4d1ff;
-    background-image: url(../images/rehanon-astro-hero-compress.webp);
+    background-image: url(../images/smoosh-hero-two.webp);
     background-size: auto;
     background-position: 50% 70%;
     padding: 5% 7%;
@@ -68,7 +68,7 @@ img {
 @media screen and (max-width:412px)
 {
      #hero {
-    background-image:url(../images/rehanon-astro-hero-mobile.webp);
+    background-image:url(../images/smoosh-hero-mobile.webp);
     max-width: 100%;
 }   
 
