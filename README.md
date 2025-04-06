@@ -14,9 +14,9 @@ Rehanon Mackenzie Astrology is a birth chart reading service that focuses on off
     * [***Site Aims***](#site-aims)
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
-    * [***Typography***]
+    * [***Typography***](#typography)
 1. [**Current Features Common to all pages**]
-    * [***Header Element***]
+    * [***Header Element***](#navigation-bar)
     * [***Other Features***]
 1. [**Individual Page Content features**]
     * [**About Section Content**]
@@ -118,9 +118,9 @@ I used online palette generator Coolors to generate the following:
 * The header is fully responsive and padding has been added to hero section to ensure that the fixed navigation bar does not block the header in the mobile version.
 * In regards to mobiles and other smaller screens the navbar collapses to the hamburger icon to provide an optimal experiences for all users.
 
-![Screenshot of header]
+![Screenshot of header](docs/images/header.png)
 
-![Screenshot of responsive header]
+![Screenshot of responsive header](docs/images/header-responsive.png)
 
 
 
@@ -130,37 +130,43 @@ I used online palette generator Coolors to generate the following:
 ​
 #### **Hero Section** 
 
-![Screenshot of hero section]
+![Screenshot of hero section](docs/images/hero.png)
+![Screenshot of responsive hero section](docs/images/hero-responsive.png)
 
 
 <br> 
 
 #### **About Section** 
 
-![Screenshot of About Section]
+![Screenshot of about Section](docs/images/about.png)
+![Screenshot of responsive about section](docs/images/about-responsive.png)
 
 
 <br>
 
 #### **Offering Section**
 
-![Screenshot of offering section]
+![Screenshot of offering section](docs/images/offering.png)
+![Screenshot of responsive offering section](docs/images/offering-responsive.png)
 
 <br>
 
 #### **Testimonial Section**
 
-[Screenshot of testimonial section]
+[Screenshot of testimonial section](docs/images/testimonials.png)
+[Screenshot of responsive testimonial section](docs/images/testimonials-responsive.png)
 
 <br>
 
 #### **Contact Section**
 
-[Screenshot of contact section]
-
+![Screenshot of contact section](docs/images/contact.jpg)
+![Screenshot of responsive contact session](docs/images/contact-responsive.png)
 <br>
 
 #### **Thank you Page Content**
+![Screenshot of thank you page](docs/images/thanks.png)
+![Screenshot of responsive thank you page](docs/images/thanks-responsive.png)
 
 ## **Future-Enhancements**
 ​
