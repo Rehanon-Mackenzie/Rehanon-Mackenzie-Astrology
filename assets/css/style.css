@@ -1,29 +1,38 @@
-/* CSS HEX
---aero: #63b4d1ff;
---vista-blue: #7699d4ff;
---russian-violet: #480355ff;
---raspberry: #d81159ff; */
-
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-/* General Styles */
+/* CSS Variables */
+:root {
+    --primary-font:"hind-madurai";
+    --secondary-font:"lora", italic;
+    --body-color:#63b4d1ff;
+    --offering-color: #480355ff;
+    --testimonials-color:#d81159ff;
+}
+
+/* Global styles */
 
 #hero {
     background-color: #63b4d1ff;
     background-image: url(../images/smoosh-hero-mobile.webp);
     background-size: auto;
     background-position: 50% 70%;
-    padding: 5% 7%;
+    padding: 10% 7%;
 }
 body {
     background-color: #63b4d1ff;
-    font-family: "hind-madurai" ;
+    font-family: var(--primary-font) ;
 }
 
 h1, h2 {
-    font-family: "lora";
+    font-family:var(--secondary-font);
     font-style: italic;
+}
+
+/* mouse over link */
+
+.nav-link:hover{
+    color: violet;
 }
 
 #about img {
@@ -34,11 +43,11 @@ h1, h2 {
 }
 
 #offering {
-    background-color: #480355ff;
+    background-color: var(--offering-color);
 }
 
 #testimonials {
-background-color: #d81159ff;
+background-color:var(--testimonials-color);
 }
 
 .responsive {
