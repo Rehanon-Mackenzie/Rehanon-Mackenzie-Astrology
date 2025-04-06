@@ -21,7 +21,7 @@ Rehanon Mackenzie Astrology is a birth chart reading service that focuses on off
     * [**Contact Secton Content**](#contact-section)
     * [**Thankyou Page Content**](#thank-you-page-content)
 1.    [**Future-Enhancements**](#future-enhancements)
-      [**Testing Phase**]
+      [**Testing Phase**](#testing-phase)
 1. [**Deployment**]
 1. [**Tech**]
 1. [**Credits**]
@@ -223,7 +223,11 @@ I used online palette generator Coolors to generate the following:
 
 ​
 **Validators**
-
+* HTML Validation using w3c html validator - Each page passed validation
+[index page](docs/images/index-html-validator.png)
+[thank you page](docs/images/thank-you-html-validator.png)
+* CSS Validation using w3c CSS validator - The page passed
+[CSS for the website](docs/images/CSS-validator.png)
 
 
 ​
