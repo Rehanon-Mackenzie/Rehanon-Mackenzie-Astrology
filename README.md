@@ -2,9 +2,6 @@
 ## **Site Overview**
 
 Rehanon Mackenzie Astrology is a birth chart reading service that focuses on offering espoke astrological readings for clients with a focus on providing clear and praticable advice that they can follow to make changes in their lives.  Rehanon has trained as an evolutionary astrologer and has a particular interest in helping clients who are at a career crossroads.  
-
-![Am I Responsive Screenshot]
-
 ​
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
@@ -23,7 +20,7 @@ Rehanon Mackenzie Astrology is a birth chart reading service that focuses on off
     * [**Testimonial Section Content**](#testimonial-section)
     * [**Contact Secton Content**](#contact-section)
     * [**Thankyou Page Content**](#thank-you-page-content)
-1.    [**Future-Enhancements**]
+1.    [**Future-Enhancements**](#future-enhancements)
       [**Testing Phase**]
 1. [**Deployment**]
 1. [**Tech**]
@@ -122,15 +119,11 @@ I used online palette generator Coolors to generate the following:
 ![Screenshot of responsive header](docs/images/header-responsive.png)
 
 
-
-​
-
 ## **Features**
 ​
 #### **Hero Section** 
 
 ![Screenshot of hero section](docs/images/hero.png)
-![Screenshot of responsive hero section](docs/images/hero-responsive.png)
 * The main feature of this section is the hero image which I designed on Canva. Again it pulls in the colour purple which is associated with spirituality.
 * The stars are the constellation of Taurus which is a simple but effective visaul which again is tying in with astrological theme.
 * Furthermore the sign of Taurus is the first earth sign in the zodiac which ties in the message of the h2 that the astrology I practice is grounded and practical.
@@ -143,7 +136,6 @@ I used online palette generator Coolors to generate the following:
 #### **About Section** 
 
 ![Screenshot of about Section](docs/images/about.png)
-![Screenshot of responsive about section](docs/images/about-responsive.png)
 * There is a large profile picture of myself as a rounded object which was chosen because when trying a square object it felt too business like and less warm.
 * The content follows on from the intro detailing how I found astrology useful, what I think astrology can offer generally and what guidance I can provide specifically.
 
@@ -153,7 +145,6 @@ I used online palette generator Coolors to generate the following:
 #### **Offering Section**
 
 ![Screenshot of offering section](docs/images/offering.png)
-![Screenshot of responsive offering section](docs/images/offering-responsive.png)
 * The testimonal section included an embedded video where I describe what a birth chart reading is and what benefits can be gained from it.
 * I shot and edited the video myself using CapCut as detailed in the software section.
 * The video uses a responsive class to ensure it renders properly in all the screen sizes.
@@ -164,7 +155,6 @@ I used online palette generator Coolors to generate the following:
 #### **Testimonial Section**
 
 ![Screenshot of testimonial section](docs/images/testimonials.png)
-![Screenshot of responsive testimonial section](docs/images/testimonials-responsive.png)
 * The testimonial sections comprises four testimonies from previous clients displayed on cards with the astrological sign of the client above their review which provides colour and interest alongside the text.
 * The cards are set to display responsively offering all users a visual pleasing display.
 * Media queries were applied to ensure a minimum height on the card text element so all the cards lined up uniformly in each screen size.  This is discussed in the bugs section.
@@ -174,7 +164,6 @@ I used online palette generator Coolors to generate the following:
 #### **Contact Section**
 
 ![Screenshot of contact section](docs/images/contact.jpg)
-![Screenshot of responsive contact session](docs/images/contact-responsive.png)
 * The form in the contact section displays responsively across all screen sizes.
 * The required attribute was added to ensure both the first name and email have to be entered for it to submit.
 * A free text space was provided so that clients cannot request a booking but can also send over any questions they may have.
@@ -182,24 +171,55 @@ I used online palette generator Coolors to generate the following:
 
 #### **Thank you Page Content**
 ![Screenshot of thank you page](docs/images/thanks.png)
-![Screenshot of responsive thank you page](docs/images/thanks-responsive.png)
 * The thank you page offers users confirmation that their message has been successfully sent and a timeframe in which they can expect to be responded to.
 * My name logo at the top right of the screen will return the user to the website.
 
 ## **Future-Enhancements**
 ​
+* I will be creating a logo for my astrology service and I will replace the current navbar brand with it.
+* A separate page for offerings will be created as I would like to offer transit and solar return readings which would benefit from their own explanatory videos, which would sit better on a separate page.
+* A booking calendar and payment system so they can purchase a reading immediately.
 
 ## **Testing Phase**
 ​
 **Responsiveness**
+* This was tested thoroughly using Chrome Dev tools.  This was incredibly helpful in enabling me to see anomalies that arose in the uniformity of the layout in the various size screens.
+* It was especially useful when assessing how the video element in the offering section rendered across all screen sizes.
+* I downloaded Live Server and I placed this side by side with my VS Code workspace so I could immediately see the effects of altering the code.
+* I sent the link to friends and family so the responsiveness could be tested on Android as well my Apple devices.
 
+* **Hero**
+<br>
+![Screenshot of responsive hero section](docs/images/hero-responsive.png)
 
-* **Home Page**
+* **About**
+<br>
+​![Screenshot of responsive about section](docs/images/about-responsive.png)
 
-​
+* **Offering**
+<br>
+![Screenshot of responsive offering section](docs/images/offering-responsive.png)
+
+* **Testimonial**
+<br>
+![Screenshot of responsive testimonial section](docs/images/testimonials-responsive.png)
+
+* **Contact**
+<br>
+![Screenshot of responsive contact session](docs/images/contact-responsive.png)
+
+* **Thank You**
+<br>
+![Screenshot of responsive thank you page](docs/images/thanks-responsive.png)
+<br>
 
 **Functionality**
-
+* All the links were clicked and tested on various devices to ensure they worked.
+* The video element was played on various devices to ensure that it started muted in keeping with best practice.
+* The header and navigation bar clear and easy  to use and collapses responsively when required.
+* The form inputs and submission work as they should.
+* On submitting the form the thank you page automatically loads.
+* The link back to the index page on the thank you page works.
 
 ​
 **Validators**
