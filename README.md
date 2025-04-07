@@ -22,8 +22,8 @@ Rehanon Mackenzie Astrology is a birth chart reading service that focuses on off
     * [**Thankyou Page Content**](#thank-you-page-content)
 1.    [**Future-Enhancements**](#future-enhancements)
       [**Testing Phase**](#testing-phase)
-1. [**Deployment**]
-1. [**Tech**]
+1. [**Deployment**](#deployment)
+1. [**Tech**](tech)
 1. [**Credits**]
     * [**General reference**]
     * [**Content**]
@@ -228,35 +228,65 @@ I used online palette generator Coolors to generate the following:
 [thank you page](docs/images/thank-you-html-validator.png)
 * CSS Validation using w3c CSS validator - The page passed
 [CSS for the website](docs/images/CSS-validator.png)
-
-
-​
 ​
 ## **Bugs**
-​
+* 🐛 - The testimonial cards were not lining up correctly in the various screen sizes.
+* 👷 - The card text element responsiveness meant they were only filling the space created by the text.
+* 👍 - Added a media query for each screen size to ensure a minimum height so all cards lined up evenly. Re-tested and everything lined up perfectly.
+<br>
+* 🐛 - You could submit the form without filling it out.
+* 👷 - The required attribute had not been placed on the input elements.
+* 👍 - Added the attribute and the pop up message advised both the first name and email inputs should be filled out.
+<br>
+* 🐛 - The toggle on the hamburger menu had stopped working.
+* 👷 - The closing tag had been deleted off the Bootstrap JS Link
+* 👍 - Add the closing tag and retested the menu and it was toggling.
 
 
 ## **Unfixed Bugs**
+* At present there are no unfixed bugs but I have added this section as new features will be added and this could bring fresh bugs.
 
 ## **Deployment**
+I deployed the page using Github pages using the following procedure.
+1. From the project's [repository](https://github.com/Rehanon-Mackenzie/milestone-project-one), go to the **Settings** tab.
+2. From the left-hand menu, select the **Pages** tab.
+3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
+The live site can be found at: (https://rehanon-mackenzie.github.io/milestone-project-one/)
 ​
 ## **Tech**
+In making the Rehanon Mackenzie Astrology project I used:
+* HTML
+* CSS
+* Javascript
 ​
 ## **Software**
-
+The software that was used was:
+* Capcut to film and edit the offering video.
+* Canva pro to create my hero image.
+* Smoosh to resize images.
+* Balsamiq to create the wireframes.
+* VS Code to create and push my code to Github.
+* Github as the version control for the site.
 
 <br>
 
 
 ## **Credits**
-​
-### **Content:**
 
+### **Content:**
+* The Javascript used is part of the responsive navbar template in Bootstrap.
+* The initial Lighthouse report advised the Large Contentful paint was slowing down the loading and bring peformance down and so I searched for a solution and was advised to add the fetch priority attribute by [Debug Bear](https://www.debugbear.com/blog/fetchpriority-attribute)
+​
+* The line of code I used was "<img src="photo.jpg" fetchpriority="high> and I placed this in the head element.
 
 ### **Media:**
-
-
-### **Honorable mentions**
-
+* The planet mercury favicon came from icons8 and the link they asked to share is: (https://icons8.com/) and the direct link for the favicon is (https://icons8.com/icons/set/mercury-planet)
+* The astrological symbols came from Flat Icon and the link is (https://www.flaticon.com/packs/horoscope-43)
+### **Special Thanks**
+* Thank you to friends and family who have sent me mountains of support when I was feeling out of my depth with the project. I'm very grateful to them for testing and retesting the site for me.
+* I am also very grateful to my mentor, Richard Wells who was able to answer my questions and clear up any confusions I had as well as offering advice on how to further improve features on the site.
+* Also a big thanks to my book club friends who have been very supporting and gave me a tapping routine to give me confidence in coding.  It worked!
+* Finally, a huge thank you to  my dear departed Nan who got me interested in the stars in the first place and was always supportive of anything I decided to undertake.
 
