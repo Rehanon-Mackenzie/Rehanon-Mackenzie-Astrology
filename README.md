@@ -5,7 +5,7 @@ Rehanon Mackenzie Astrology is a birth chart reading service that focuses on off
 ​
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
-1. [**Planning stage**](#planning-stage)
+1. [**Planning stage**]
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
@@ -24,10 +24,11 @@ Rehanon Mackenzie Astrology is a birth chart reading service that focuses on off
       [**Testing Phase**](#testing-phase)
 1. [**Deployment**](#deployment)
 1. [**Tech**](tech)
-1. [**Credits**](#credits)
-    * [**Content**](#content)
-    * [**Media**](#media)
-    * [**Honorable mentions**](#special-thanks)
+1. [**Credits**]
+    * [**General reference**]
+    * [**Content**]
+    * [**Media**]
+    * [**Honorable mentions**]
 ​
 ## **Planning Stage**
 
@@ -36,7 +37,7 @@ Rehanon Mackenzie Astrology is a birth chart reading service that focuses on off
 #### **Target Audiences:**
 * People who are interested in astrology.
 * Adults who are looking to have a birth chart reading and learn about their personal astrology.
-* Specifically people who are in a transition in either one or multiple areas of their life and are keen for alternative guidance.
+* Specifically people who are in a transition in either one multiple areas of their life and is keen for alternative guidance.
 * Also people who are interested in self-development and are open to using a wide range of techniques including astrology.
 
 ​
@@ -51,7 +52,7 @@ Rehanon Mackenzie Astrology is a birth chart reading service that focuses on off
 ​
 #### **Site Aims:**
 * To enable clients to book birth chart readings with me.
-* To give people an understanding of who I am and my experience as an astrologer so they feel confident making a booking.
+* To give people an understanding of who I am and my experience as an astrologer so they feel confident making a book.
 * To enable people who don't know what a birth chart reading is a clear explanation of one.
 * To let perspective clients know how much the service costs.
 * To provide perspective clients honest reviews of the service by previous clients.
@@ -82,7 +83,7 @@ I used online palette generator Coolors to generate the following:
 
 ![Colour Palette](docs/images/colour-palette.png)
 
-​I chose these colours because they are closely associated with spirituality specifically the chakra points.  These include purple for the crown chakra which is associated with higher wisdom.  Blue for the throat chakra and speaking from a place of wisdom. Finally, raspberry pink is associated with passion, excitement and creativity which is always what I hope a birth chart reading will give to people especially when they come for one when they are at a significant cross roads in their life.
+​I chose these colours because they are closely associated with spirituality specifically the chakra points.  These include purple for the crown chakra which is associated with higher wisdom.  Blue through the throat chakra and speaking from a place of wisdom. Finally, raspberry pink is associated with passion, excitement and creativity which is always what I hope a birth chart reading will give to people especially when they come for one when they are at a significant cross roasds in their life.
 
 #### **Typography**
 ​
@@ -100,7 +101,7 @@ I used online palette generator Coolors to generate the following:
 
 * The favicon is a small image that displays in the browser tab. 
 * The intention is to enhance the user experience for those who have multiple tabs open and cannot read the text in the tabs.
-* The favicon is a doodle of the planet Mercury.  This was chosen because Mercury is a planet people have heard of inconjunction with astrology and is the ruler of my Gemini sun so in keeping with the flow of information provided about me on the website.
+* The favicon is a doodle of the planet Mercury.  This was chosen because Mercury is a planet people have head of inconjunction with astrology and is the ruler of my Gemini sun so in keeping with the flow of information provided about me on the website.
 * It was taken from the Icons8 website and is credited in the Media Section below
 
 ![Screenshot of favicon](docs/images/favicon-screenshot.jpg)
@@ -124,7 +125,7 @@ I used online palette generator Coolors to generate the following:
 
 ![Screenshot of hero section](docs/images/hero.png)
 * The main feature of this section is the hero image which I designed on Canva. Again it pulls in the colour purple which is associated with spirituality.
-* The stars are the constellation of Taurus which is a simple but effective visual which again is tying in with astrological theme.
+* The stars are the constellation of Taurus which is a simple but effective visaul which again is tying in with astrological theme.
 * Furthermore the sign of Taurus is the first earth sign in the zodiac which ties in the message of the h2 that the astrology I practice is grounded and practical.
 * The h1 and h2 is an italic because I felt it flowed with the design.
 * The short intro paragraph gives a flavour of who I am and why I love astrology and is written to garner interest to carry on navigating the rest of the page.
@@ -165,7 +166,7 @@ I used online palette generator Coolors to generate the following:
 ![Screenshot of contact section](docs/images/contact.jpg)
 * The form in the contact section displays responsively across all screen sizes.
 * The required attribute was added to ensure both the first name and email have to be entered for it to submit.
-* A free text space was provided so that clients can not only request a booking but can also send over any questions they may have.
+* A free text space was provided so that clients cannot request a booking but can also send over any questions they may have.
 <br>
 
 #### **Thank you Page Content**
@@ -182,10 +183,10 @@ I used online palette generator Coolors to generate the following:
 ## **Testing Phase**
 ​
 **Responsiveness**
-* This site was tested thoroughly using Chrome Dev tools.  This was incredibly helpful in enabling me to see anomalies that arose in the uniformity of the layout in the various size screens.
+* This was tested thoroughly using Chrome Dev tools.  This was incredibly helpful in enabling me to see anomalies that arose in the uniformity of the layout in the various size screens.
 * It was especially useful when assessing how the video element in the offering section rendered across all screen sizes.
 * I downloaded Live Server and I placed this side by side with my VS Code workspace so I could immediately see the effects of altering the code.
-* I sent the link to friends and family so the responsiveness could be tested on Android as well my devices.
+* I sent the link to friends and family so the responsiveness could be tested on Android as well my Apple devices.
 
 * **Hero**
 <br>
@@ -215,12 +216,10 @@ I used online palette generator Coolors to generate the following:
 **Functionality**
 * All the links were clicked and tested on various devices to ensure they worked.
 * The video element was played on various devices to ensure that it started muted in keeping with best practice.
-* The header and navigation bar is clear and easy  to use and collapses responsively when required.
+* The header and navigation bar clear and easy  to use and collapses responsively when required.
 * The form inputs and submission work as they should.
 * On submitting the form the thank you page automatically loads.
 * The link back to the index page on the thank you page works.
-* Lighthouse was used to test the site and these are the results:
-[Lightouse Index results](docs/images/lighthouse-index.png)
 
 ​
 **Validators**
@@ -241,7 +240,7 @@ I used online palette generator Coolors to generate the following:
 <br>
 * 🐛 - The toggle on the hamburger menu had stopped working.
 * 👷 - The closing tag had been deleted off the Bootstrap JS Link
-* 👍 - Added the closing tag and retested the menu and it was toggling.
+* 👍 - Add the closing tag and retested the menu and it was toggling.
 
 
 ## **Unfixed Bugs**
@@ -281,7 +280,6 @@ The software that was used was:
 * The initial Lighthouse report advised the Large Contentful paint was slowing down the loading and bring peformance down and so I searched for a solution and was advised to add the fetch priority attribute by [Debug Bear](https://www.debugbear.com/blog/fetchpriority-attribute)
 ​
 * The line of code I used was "<img src="photo.jpg" fetchpriority="high> and I placed this in the head element.
-* All fonts were taken from Google fonts(https://fonts.google.com/)
 
 ### **Media:**
 * The planet mercury favicon came from icons8 and the link they asked to share is: (https://icons8.com/) and the direct link for the favicon is (https://icons8.com/icons/set/mercury-planet)
@@ -289,6 +287,6 @@ The software that was used was:
 ### **Special Thanks**
 * Thank you to friends and family who have sent me mountains of support when I was feeling out of my depth with the project. I'm very grateful to them for testing and retesting the site for me.
 * I am also very grateful to my mentor, Richard Wells who was able to answer my questions and clear up any confusions I had as well as offering advice on how to further improve features on the site.
-* Also a big thanks to my book club friends who have been very supportive and gave me a tapping routine to give me confidence in coding.  It worked!
+* Also a big thanks to my book club friends who have been very supporting and gave me a tapping routine to give me confidence in coding.  It worked!
 * Finally, a huge thank you to  my dear departed Nan who got me interested in the stars in the first place and was always supportive of anything I decided to undertake.
 
