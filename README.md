@@ -12,7 +12,7 @@ Rehanon Mackenzie Astrology is a birth chart reading service that focuses on off
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
     * [***Typography***](#typography)
-1. [**Current Features Common to all pages**]
+1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
     * [***Header Element***](#navigation-bar)
 1. [**Individual Page Content features**]
     * [**About Section Content**](#about-section)
